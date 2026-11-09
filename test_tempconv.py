@@ -7,3 +7,9 @@ def test_c_to_f():
 
 def test_f_to_c():
     assert f_to_c(32) == 0
+
+
+def test_c_to_k():
+    from tempconv import c_to_k
+
+    assert c_to_k(0) == 273.15
