@@ -1,4 +1,4 @@
-**Anna: open [START_HERE.md](START_HERE.md) first, then [PRACTICE.md](PRACTICE.md).**
+**Anna: everything you need is in [START_HERE.md](START_HERE.md). It is the only document you need today.**
 
 # cnh-dryrun
 
