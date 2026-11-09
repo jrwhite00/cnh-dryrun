@@ -1,4 +1,4 @@
-**Anna: open [START_HERE.md](START_HERE.md) first.**
+**Anna: open [START_HERE.md](START_HERE.md) first, then [PRACTICE.md](PRACTICE.md).**
 
 # cnh-dryrun
 

@@ -89,26 +89,21 @@ Use this if the automatic pull requests aren't ready tomorrow. James will tell y
 
 1. Open the repo, then the `curriculum` folder, then `courses`.
 2. Click **Add file**, then **Create new file**.
-3. Name the file with the state and course in lowercase, joined by hyphens, ending in `.yaml`. For example: `utah-computer-programming-1.yaml`.
+3. Name the file with the state and course in lowercase, joined by hyphens, ending in `.yaml`. For example: `utah-computer-programming-3.yaml`.
 4. Type the five lines, following the example above, with `added by: Anna`.
 5. Click **Commit changes…**, choose **Create a new branch for this commit and start a pull request**, then click **Propose changes**, then **Create pull request**.
 6. Wait for Gitar's comment and fix anything it finds. GitHub won't let you approve your own pull request, so ask James to approve it, or merge it yourself.
 
 ## Practice now
 
-Two practice pull requests are waiting:
+19 practice pull requests are waiting. **Open [PRACTICE.md](PRACTICE.md) and work through it in order.** It takes about 1½ hours, in four rounds:
 
-| Pull request | What Gitar said | Your task |
-|---|---|---|
-| [#2 Add course: Computer Science I (Texas)](https://github.com/jrwhite00/cnh-dryrun/pull/2) | Looks ready | Check it yourself, then approve and merge |
-| [#3 Add course: Full-Stack Coding Bootcamp](https://github.com/jrwhite00/cnh-dryrun/pull/3) | Three problems: a topic we don't have, 6 topics, and no standard | Fix the file, wait for Gitar, then approve and merge |
+1. Warm-up: correct courses to approve and merge.
+2. Gitar finds a problem and you fix the file.
+3. Gitar says "ready", but there's a teaching mistake only you can spot.
+4. You add a course yourself.
 
-Pull request #3 needs two real teaching decisions:
-
-- Which four topics does a coding bootcamp mostly teach? Gitar suggests some, but you choose.
-- A bootcamp has no state standard. Write what you'd accept, for example `standard: none, private bootcamp`, and see whether Gitar agrees. You have the final say either way.
-
-Merge #2 and #3 as practice. It's a throwaway repo, so nothing breaks.
+Answers are in [ANSWERS.md](ANSWERS.md), so try each round before you look. It's a throwaway repo, so nothing breaks.
 
 ## Tomorrow
 
