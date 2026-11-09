@@ -76,7 +76,7 @@ Skip any step you've already done.
 
 Everything you'll work on is in the `curriculum` folder, in two sub-folders.
 
-**A concept**, in `curriculum/concepts/`. You write these.
+**A concept**, in `curriculum/concepts/`. You write these. This example is a practice placeholder, written by AI. It shows the shape only, so never reuse its words.
 
 ```
 concept: Containers
@@ -154,15 +154,7 @@ Do this in the practice repo before 11:00 if you can. If time is short, do Round
 
 19 practice course pull requests are waiting at https://github.com/jrwhite00/cnh-dryrun/pulls. Keep two more tabs open while you work:
 
-- **The concept list.** The practice repo has five concepts, and the real repo will too, once you write them:
-
-  | Topic, spelled exactly like this | What it means |
-  |---|---|
-  | `programming-basics` | Writing instructions with variables, loops and functions |
-  | `data-and-databases` | Storing information so programs can save it and look it up |
-  | `networking-basics` | How computers find each other and send messages over the internet |
-  | `linux-command-line` | Typing commands into a terminal |
-  | `containers` | Packaging a program so it runs the same on any computer |
+- **The practice concept list**, at https://github.com/jrwhite00/cnh-dryrun/tree/main/curriculum/concepts. It has five concepts: `programming-basics`, `data-and-databases`, `networking-basics`, `linux-command-line` and `containers`. Their wording is an AI-written placeholder for practice only. **Never copy it into the real repo.**
 
 - **This page**, for the button paths.
 
@@ -300,19 +292,22 @@ If GitHub shows "404" instead, open https://github.com/jrwhite00/homeroom/invita
 
 ### What you're writing
 
-Five concept files, with these names, which James's plan and the practice courses already use:
+Six concept files, in this order. The first is the one Part 6 describes; the other five have fixed names, which the plan and the courses already use:
 
-| Order | File name, exactly | The idea |
-|---|---|---|
-| 1 | `programming-basics.yaml` | Writing instructions a computer follows |
-| 2 | `data-and-databases.yaml` | Storing and finding information |
-| 3 | `networking-basics.yaml` | How computers talk to each other over a network |
-| 4 | `linux-command-line.yaml` | Working in a terminal |
-| 5 | `containers.yaml` | Packaging a program so it runs anywhere |
+| Order | File name, exactly |
+|---|---|
+| 1 | The scaling concept from [Part 6](#part-6-a-sixth-concept-keeping-a-site-up-under-load). The demo depends on it most, so write it first. |
+| 2 | `containers.yaml` |
+| 3 | `programming-basics.yaml` |
+| 4 | `networking-basics.yaml` |
+| 5 | `data-and-databases.yaml` |
+| 6 | `linux-command-line.yaml` |
+
+Each one takes 5 to 10 minutes. Good enough beats polished.
 
 ### Rules for writing them
 
-- **In your own words. No AI, and don't copy the practice repo's concept files**, even though they have the same names. Those are placeholders.
+- **Every word must be yours.** Don't copy from the practice repo, from this page, or from anything AI wrote, not even a short phrase. If you notice you've written something you saw elsewhere, rewrite it. Your words are what the project's "a teacher wrote this" claim rests on.
 - **Three lines per file:** `concept:`, `definition:` and `technical words:`, exactly as in Part 2.
 - **How Homeroom uses your two lines.** This is why the wording matters:
   1. A student types a question in plain words, such as "how do big websites stay up when everyone visits?"
@@ -322,22 +317,34 @@ Five concept files, with these names, which James's plan and the practice course
 - And **the technical words** should be what a conference speaker would put in a talk title: tools, jargon and product names. Aim for 5 to 10 per concept, separated by commas. This is where the jargon goes.
 - Spelling and the colon after each label matter. `technical words:` with a space, not `technical-words:`. A colon inside your sentence is fine.
 
-### Steps, for each of the five files
+### Steps, for each file
 
-Do this five times, once per file, in the order of the table. Each file is its own pull request.
+Do this once per file, in the order of the table. Each file is its own pull request.
 
 1. Open the real repo's main page.
 2. Click **Add file**, then **Create new file**.
 3. In the name box, type the whole path: `curriculum/concepts/programming-basics.yaml`. Each `/` you type turns the text before it into a folder, so this creates the folders too.
 4. Type your three lines in the big box.
-5. Read it once more: the file name is spelled exactly as in the table, and each line starts with its label and a colon.
-6. Click **Commit changes…**, choose **Create a new branch for this commit and start a pull request**, click **Propose changes**, then **Create pull request**.
+5. Read it once more:
+   - The file name is spelled exactly as in the table.
+   - The three labels are spelled exactly `concept:`, `definition:` and `technical words:`. **Check "definition" letter by letter.** A misspelled label makes Homeroom treat that line as empty.
+6. Click **Commit changes…**. A box opens with two choices. **Choose the second one, "Create a new branch for this commit and start a pull request".** Never choose "Commit directly to the main branch": that skips review and leaves no pull request for the judges. Then click **Propose changes**, then **Create pull request**.
 7. Message James: "Concept PR ready: programming-basics" plus the link from your address bar.
 8. Start the next file straight away. Don't wait for James.
 
 James approves and merges each one. Gitar may comment on them. Read it if you like, but concepts are yours, so ignore anything you disagree with.
 
-**You're done with Part 5 when** the real repo's `curriculum/concepts` folder on its main page shows all five files.
+### Fixing a concept that's already in the repo
+
+If a concept is already in the real repo but needs changing, for example `programming-basics.yaml`:
+
+1. Open it: the real repo, then `curriculum`, then `concepts`, then the file.
+2. Click the **pencil** icon at the top right of the file.
+3. Make your changes.
+4. Click **Commit changes…**, choose **Create a new branch for this commit and start a pull request**, then **Propose changes**, then **Create pull request**.
+5. Message James the link.
+
+**You're done with Part 5 when** the real repo's `curriculum/concepts` folder on its main page shows all six files, and each one arrived through a pull request.
 
 ## Part 6: A sixth concept: keeping a site up under load
 
